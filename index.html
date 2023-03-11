@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="todo3.css">
+    <script src="https://kit.fontawesome.com/f09b280b77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <h1>Todo List</h1>
+            <div class="input-group">
+                <input type="text" id="text-input-field" autofocus placeholder="Type Your Todo list">
+                <button id="add-button" type="button">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <!-- input group end -->
+            <div class="todos-container">
+                <!-- <div class="todo-item-container">
+                    <p id="todo-text">gym</p>
+                    <button id="edit-button">
+                        <i class="fa-solid fa-pen"></i>
+                        <img src = 'edit.svg' alt = 'edit'>
+                    </button>
+                    <button id="delete-button">
+                        <i class="fa-solid fa-trash-can"></i>
+                        <img src = 'delete.svg' alt = 'delete'>
+                    </button>
+                </div> -->
+                <!-- todo-item-container end -->
+            </div>
+            <!-- todos-container end -->
+            <span id="total-tasks"> <span id="tasks-counter">0</span> Tasks Left</span>
+        </div>
+        <!-- container end -->
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
